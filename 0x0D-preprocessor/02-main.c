@@ -1,12 +1,19 @@
+#include "1-pi.h"
+#include "1-pi.h"
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
-	return (0);
+    float a;
+    float r;
+
+    r = 98;
+    a = PI * r * r;
+    printf("%.3f\n", a);
+    return (0);
 }
